@@ -96,8 +96,7 @@ with Session(engine) as session:
     session.add(new_product4)
     session.add(new_product5)
     session.add(new_product6)
-
-    # session.commit()
+    session.commit()
 
 # -----------------------
 # QUERY ALL CATEGORIES
